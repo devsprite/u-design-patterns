@@ -19,9 +19,6 @@ var NumbersCollection = /** @class */ (function () {
         this.data[leftIndex] = this.data[rightIndex];
         this.data[rightIndex] = leftHand;
     };
-    NumbersCollection.prototype.displayData = function () {
-        console.log(this.data);
-    };
     return NumbersCollection;
 }());
 exports.NumbersCollection = NumbersCollection;

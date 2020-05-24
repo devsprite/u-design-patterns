@@ -5,4 +5,4 @@ var Sorter_1 = require("./Sorter");
 var numbers = new NumbersCollection_1.NumbersCollection([1, 10, 5, 0, -1]);
 var sortNumbers = new Sorter_1.Sorter(numbers);
 sortNumbers.sort();
-sortNumbers.collection.displayData();
+console.log(numbers.data);

@@ -16,9 +16,4 @@ export class NumbersCollection implements Sortable {
     this.data[leftIndex] = this.data[rightIndex];
     this.data[rightIndex] = leftHand;
   }
-
-  displayData(){
-    console.log(this.data);
-  }
-
 }

@@ -6,4 +6,4 @@ const sortNumbers = new Sorter(numbers);
 
 sortNumbers.sort();
 
-sortNumbers.collection.displayData();
+console.log(numbers.data);
